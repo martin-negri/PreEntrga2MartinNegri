@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Index*/
+
+.navbar{
+    background-color: black;
+    
+}
+.hero{
+    background-image: url(../img/indio_inicio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Black Ops One";
+    height: 100vh;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding-block: 20px;
+}
+/* Fin de Index*/
