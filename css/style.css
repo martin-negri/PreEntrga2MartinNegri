@@ -5,12 +5,15 @@
     box-sizing: border-box;
 }
 
-/*Index*/
+/*Barra de navegacion*/
 
 .navbar{
     background-color: black;
     
 }
+/*Fin de Barra de navegacion*/
+
+/*Index*/
 .hero{
     background-image: url(../img/indio_inicio.jpg);
     background-size: cover;
@@ -27,3 +30,5 @@
     padding-block: 20px;
 }
 /* Fin de Index*/
+
+
