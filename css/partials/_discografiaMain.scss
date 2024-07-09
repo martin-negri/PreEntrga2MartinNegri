@@ -1,0 +1,41 @@
+.discografia__main{
+    background-image: url(../img/indio-discografia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .discografia__titulo{
+        font-family: "Black Ops One";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 18vh;
+        margin: 0;
+        text-shadow: 12px 2px 15px rgba(0, 0, 0, 0.877);
+        color: white;   
+        
+        
+    }
+    .discografia {
+        max-width: 1490px;
+        margin: 0 auto; 
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-auto-rows: 690px;
+        align-items: center; 
+        justify-content: center; 
+        gap: 1rem;
+        padding: 50px;
+
+        .discografia__img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: all 300ms;
+            position: relative;
+            
+            
+        }
+    }
+}

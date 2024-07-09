@@ -5,16 +5,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-/*Barra de navegacion*/
+/*********Barra de navegacion*********/
+/*************************************/
 
 .navbar{
     background-color: black;
     
 }
-/*Fin de Barra de navegacion*/
+/*********Fin Barra de navegacion*********/
+/*****************************************/
 
-/*Index*/
+
+/****************INDEX*****************/
+/*************************************/
 .hero{
     background-image: url(../img/indio_inicio.jpg);
     background-size: cover;
@@ -32,7 +35,9 @@
     justify-content: center;
     padding-block: 40px;
 }
-/* Fin de Index*/
+/**************FIN INDEX*****************/
+/****************************************/
+
 
 
 /*********DISCOGRAFIAS*********/
@@ -83,12 +88,12 @@
 }
 
 
+
 /*Resposive Tablet Discografia*/
 
 @media(max-width: 992px){
     .discografia {
-        padding: 90px;
-        max-width: 1490px;
+        padding: 190px;
         margin: 0px;
         display: grid;
         align-items: stretch;
@@ -163,3 +168,13 @@
 
 /*******FIN DISCOGRAFIAS*******/
 /******************************/
+
+
+/****************EVENTOS*****************/
+/***************************************/
+
+
+
+
+/**************FIN EVENTOS*****************/
+/*****************************************/
