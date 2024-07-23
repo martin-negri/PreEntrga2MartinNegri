@@ -123,7 +123,7 @@
 /*Resposive mobil Discografia*/
 @media(max-width: 720px){
     .discografia {
-        padding: auto;
+        padding: 1rem;
         max-width: 1490px;
         margin: auto;
         display: grid;
@@ -172,9 +172,198 @@
 
 /****************EVENTOS*****************/
 /***************************************/
+.eventos{
+    background-image: url(../img/indio4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+}
+.evento {
+    max-width: 950px;
+    margin: auto;
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    justify-self: center;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.evento__titulo{
+    font-family: "Black Ops One";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+    margin: 0;
+    text-shadow: 12px 2px 15px rgba(0, 0, 0, 0.877);
+    color: white;   
+    
+    
+}
+
+.evento__item{
+    position: relative;
+    overflow: hidden;
+}
 
 
+.evento__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.evento__item--1 {
+    grid-row: span 2;
+    
+}
+
+.evento__item--2 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.evento__item--6 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.evento__item--10 {
+    grid-row: span 2;
+}
+
+.evento__item--11 {
+    grid-row: span 2;
+}
+
+/*OVERLAY*/
+.evento__overlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    transform: translateY(100%);
+    background-color: rgba(0, 0, 0, 0.596);
+    transition: transform 0.5s ease;
+}
+
+.evento__link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.evento__text {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.evento__item:hover > .evento__overlay {
+    transform: translateY(0);
+}
+/*FIN OVERLAY*/
 
 
+/*Resposive Tablet Eventos*/
+@media (max-width:992px) {
+    .evento {
+        max-width: 950px;
+        margin: 30px;
+        display: grid;
+        align-items: stretch;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 250px;
+        justify-self: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .evento__item--1 {
+        grid-row: span 4;
+        grid-column: span 2;
+    }
+    .evento__item--2 {
+        grid-row: span 2;
+        grid-columns: span 1;
+    }
+
+    .evento__item--3 {
+        grid-row: span 2;
+        grid-columns: span 1;
+    }
+    .evento__item--6 {
+        grid-row: span 4;
+        grid-columns: span 1;
+    }
+    .evento__item--7 {
+        grid-row: span 2;
+    }
+    
+    .evento__item--8 {
+        grid-row: span 2;
+    }
+    
+}
+/*Resposive Tablet Eventos*/
+
+
+/*Resposive mobil Eventos*/
+@media (max-width:580px) {
+    .evento {
+        margin: 30px;
+        display: grid;
+        align-items: stretch;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 250px;
+        justify-self: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .evento__item--1 {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+    .evento__item--2 {
+        grid-row: span 2;
+        grid-columns: span 1;
+    }
+
+    .evento__item--3 {
+        grid-row: span 2;
+        grid-columns: span 1;
+    }
+    .evento__item--6 {
+        grid-row: span 2;
+        grid-columns: span 1;
+    }
+    .evento__item--7 {
+        grid-row: span 2;
+    }
+    
+    .evento__item--11 {
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+    .evento__item--12 {
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+}
+
+/*Fin Resposive mobil Eventos*/
 /**************FIN EVENTOS*****************/
 /*****************************************/
