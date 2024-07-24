@@ -1,0 +1,44 @@
+.contactos {
+    background-image: url(../img/fondoContacto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+}
+
+.contacto__titulo {
+    font-family: "Black Ops One";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+    margin: 0;
+    text-shadow: 12px 2px 15px rgba(0, 0, 0, 0.877);
+    color: white;
+}
+
+.contacto {
+    background-color: transparent !important;
+}
+
+.form-bg {
+    background-color: rgba(0, 0, 0, 0.596);
+    padding: 20px;
+    border-radius: 8px;
+
+    .form-label,
+    .form-text,
+    .btn-black {
+    color: white;
+    }
+}
+
+.btn-black {
+    background-color: rgba(0, 0, 0, 0.959);
+    color: white;
+    border: none;
+
+    &:hover {
+    background-color: #333;
+    }
+}

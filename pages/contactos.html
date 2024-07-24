@@ -11,7 +11,7 @@
     <!--Fin de boostrap-->
 
     <!--Css-->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/estilo.css">
     <!--Fin Css-->
     <title>Indio - CONTACTOS</title>
 </head>
@@ -39,6 +39,37 @@
     <!--Fin barra de navegacion-->
 
     <!--Contendio principal-->
+    <main class="contactos">
+        <section class="contacto py-5">
+            <h1 class="contacto__titulo text-center">CONTACTOS</h1>
+            <div class="container">
+                <div class="form-bg p-4">
+                    <form>
+                        <div class="mb-3">
+                            <label for="Nombre" class="form-label">Nombres</label>
+                            <input type="text" class="form-control" id="Nombre" aria-describedby="nombre">
+                            <div id="nombre" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Asunto" class="form-label">Asunto</label>
+                            <input type="text" class="form-control" id="Asunto" aria-describedby="asunto">
+                            <div id="asunto" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" name="mensaje" cols="30" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-black">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
     
     <!--Fin contendio principal-->
 
